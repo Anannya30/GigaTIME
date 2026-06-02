@@ -39,6 +39,8 @@ dependencies:
 
       - tqdm~=4.66
 
+      - huggingface_hub>=0.23   # required by the inference/training tutorials to fetch the model
+
       - anyio~=4.4
 
       - tzdata~=2025.1
